@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Phone Directory</title>
+	<meta charset="utf-8">
+    
+	<link rel="stylesheet" href="Phone-directory.css">
+	<script src="Phone-directory.js"></script>
+</head>
+<body>
+    <div class="title">
+			<h1>PHONE DIRECTORY</h1>
+    </div>
+	<div class="container">
+		<button id="QuickAdd"  class="quickadd">Add Contact</button>
+		<div class="quickaddForm">
+			<label for="fullname">Name</label><input type="text" id="fullname" class="formFields">
+			<label for="email">E-Mail</label><input type="text" id="email" class="formFields">
+			<label for="phone">Phone</label><input type="text" id="phone" class="formFields">
+			<label for="address">Address</label><textarea name="address" id="address" cols="30" rows="5" class="formFields"></textarea>
+			<label for="city">City</label><input type="text" id="city" class="formFields">
+			<br><br>
+			<button id="Add">Add Now</button><button id="Cancel">Cancel</button>
+		</div>
+		<div class="entry entryCSS">
+				<div class="name"><p>NAME</p></div>
+				<div class="email"><p>EMAIL</p></div>
+				<div class="phone"><p>PHONE</p></div>
+				<div class="address"><p>ADDRESS</p></div>
+				<div class="city"><p>CITY</p></div>
+			</div>
+		<div class="addbook">
+        </div>
+	</div>
+</body>
+</html>
